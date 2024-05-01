@@ -31,3 +31,6 @@
 // var book = "A smarter way to learn javascript ";
 // alert(book)
 
+// document.write("Yah!I can write html content through javascript")
+
+var symbol = "--------"
