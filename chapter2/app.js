@@ -33,4 +33,5 @@
 
 // document.write("Yah!I can write html content through javascript")
 
-var symbol = "--------"
+var symbol = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬” "
+alert(symbol)
