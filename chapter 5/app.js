@@ -74,3 +74,44 @@
 // document.write("<br>")
 // document.write("percentage=82.04")
 
+
+
+// var usDollar = 10 * 104.80 ;
+// var saudiRiyal = 25 * 28 ;
+// var totalPakistaniRupees = usDollar+saudiRiyal;
+// document.write(totalPakistaniRupees)
+
+
+// var number = (5+5*10)/2 ;
+
+
+// var currentYear = 2024 ;
+// var birthYear = 2003 ;
+// var age = currentYear-birthYear;
+// console.log(age)
+// document.write(age)
+
+
+// var radius = 20;
+// var circumference = 2*3.142*radius;
+// var area = 3.142 * radius ;
+// document.write("<h1>The Geometrizer</h1>")
+// document.write(radius)
+// document.write("</br>")
+// document.write(circumference)
+// document.write("</br>")
+// document.write(area)
+
+
+// var favourite = "choclatechip";
+// var age = 21 ;
+// var maxAge = 70 ;
+// var amount = 4;
+// var total = amount * maxAge;
+// document.write(total)
+
+
+
+
+
+
