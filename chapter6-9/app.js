@@ -50,15 +50,28 @@
 // document.write("<table border="1" cellspacing="0">");
 // for (i = 1; i < 10; i++) {
 //     document.write("<tr><td>" + num + " x " + i + " = " + num * i + "</td></tr>");
-//   }
+//   }xz
+
+// var number = prompt("Enter a number (default is 5):") || 5;
+// if (isNaN(number)) {
+//     number = 5;
+// }
+
+// var table = "<h2>Multiplication Table of " + number + "</h2><ul>";
+// for (var i = 1; i<= 10; i++){
+//  table += "<li>" + number + " x " + i + " = " + (number * i) + "</li>";
+// }
+// table += "</ul>"
+
+// document.write(table);
 
 // var sub1="maths";
 // var sub2="physics";
-// var sub3="urdu";
+// var sub3="urdu";xz
 // var totalMarks=100;
 // var obtainedMarks1 = 54;
 // var obtainedMarks2 = 54;
-// var obtainedMarks3 = 48;
+// var obtainedMarks3 = 48;xz
 // var sumTotal = totalMarks*3;
 // var sumObtained = obtainedMarks1+obtainedMarks2+obtainedMarks3;
 // var percenage1=(obtainedMarks1/totalMarks)*100;
