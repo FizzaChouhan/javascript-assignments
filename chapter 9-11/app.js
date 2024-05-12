@@ -94,3 +94,4 @@
      
      //question6
      var obtMark1 = prompt ("write marks of physics")      
+     var obtMark1 = prompt ("write marks of physics")      
