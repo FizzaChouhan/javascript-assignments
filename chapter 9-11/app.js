@@ -43,12 +43,12 @@
 //b
 // var b = 82;
 // if (b++ === 83){
-// alert(b);
+//     alert(b);
 // }
 //false
 
 //c
- var c = 12;
+// var c = 12;
 // if (c++ === 13){
 // alert(c);
 // }
@@ -93,5 +93,62 @@
      
      
      //question6
-     var obtMark1 = prompt ("write marks of physics")      
-     var obtMark1 = prompt ("write marks of physics")      
+    //   var obtMark1 = +prompt ("write marks of physics") ;     
+    //   var obtMark2 = +prompt ("write marks of maths");     
+    //   var obtMark3 = +prompt ("write marks of english");
+    //   var marksObt = obtMark1+obtMark2+obtMark3;
+    //   console.log (marksObt)
+    //   var totalMarks = 300 ;
+    //   var percentage = (marksObt/totalMarks)*100;
+     
+
+    //   if (percentage >= 80){
+    //     console.log ("Grade A-one \n Excellent");
+    //   }
+    //  if (percentage >= 70){
+    //     console.log ("Grade A \n Good");
+    //   }
+    //    if (percentage >= 60){
+    //     console.log ("Grade B \n You need to improve");
+    //   }
+    //    if (percentage < 50 ){
+    //     console.log ("Fail\n Sorry");
+    //   }
+
+    //   document.write("<h1>Mark sheet</h1>")
+    //   document.write("</br>")
+    //   document.write("Total Marks "+ totalMarks)
+    //   document.write("</br>")
+    //   document.write("Obtained marks " + marksObt )
+    //   document.write("</br>")
+    //   document.write("Percentage " + percentage)
+
+    //question7
+    // var secretNum = 5 ;
+    // var guessNum = +prompt("Guess the number")
+    // if (secretNum == guessNum){
+    //     console.log("Bingo!")
+    // }
+    // if(secretNum>1) {
+    //     console.log("Show enough to correct")
+    // }
+  
+    //question 8
+    // var number = +prompt("enter number");
+    // if (number / 3 == 0){
+    //     alert("divisible");
+    // }
+    // else{
+    //     alert("not divisible");
+    // }
+
+    //question9
+    // var number = +prompt("enter number");
+    // if (number%2 === 0){
+    //     alert("its even");
+    // } else{
+    //     alert("its odd");
+    // }
+
+    //question10
+    
