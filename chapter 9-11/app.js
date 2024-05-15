@@ -151,4 +151,39 @@
     // }
 
     //question10
-    
+    // var temp = prompt("write temperature:");
+    // if (temp > 40){
+    //     console.log("It is too hot outside")
+    // }
+    // if (temp > 30){
+    //     console.log("The weather today is normal");
+    // }
+    // if (temp > 20){
+    //     console.log("Today's weather is cool ");
+    // }
+    // if (temp > 10){
+    //     console.log("OMG!Today's weather is so cool")
+    // }
+
+    //question 11
+//     var firstNum = +prompt("Enter number");
+//     var secNum = +prompt("Enter number");
+//     var operation = prompt("Enter operators");
+
+//    if (operation === +){
+//     var result = firstNum+secNum;
+//     console.log(result)
+//    }
+//    if (operation === -){
+//     var result = firstNum-secNum;
+//     console.log(result)
+//    }
+//    if (operation === *){
+//     var result = firstNum*secNum;
+//     console.log(result)
+//    }
+//    if (operation === /){
+//     var result = firstNum/secNum;
+//     console.log(result)
+//    }
+     
