@@ -96,11 +96,56 @@
 //else
 //greeting = "Good evening";
 //}
-// var hour = +prompt("what time is it");
-// var hour =  13;
-// if (hour==13 && hour<18){
-//     alert("Good day");
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
 // }
-// else{
-//     alert("Good evening");
+// else {
+// greeting = "Good evening";
 // }
+
+//question 7
+// 7. Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the
+// following case using if, else & else if statements
+ 
+// var time = +prompt("Enter the time");
+// if (time >= 1000 && time < 1200){
+//     console.log("Good morning");
+// }
+// else if(time>=1200 && time< 1700){
+//     console.log("Good Afternoon");            
+// }    
+// else if(time>=1700 && time< 2100){
+//     console.log("Good Evening");            
+// }    
+// else if(time>=2100 && time< 2359){
+//     console.log("Good Night");            
+// } 
+// else {
+//     console.log(Incorrect )
+// }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
