@@ -99,7 +99,7 @@
 // position/index. . Display the updated array in your
 // browser.
 
-var colors = ["red","blue","green","yellow"];
+// var colors = ["red","blue","green","yellow"];
 
 //  var strtColor = prompt("which color u want in begining");
 // colors [0] = strtColor;
@@ -124,3 +124,68 @@ var colors = ["red","blue","green","yellow"];
 // var colorName = prompt ("which color do u want");
 // colors[add]=colorName
 // document.write(colors);
+
+// var del = + prompt("at which index he/she wants to deletecolor(s)");
+// var delNo = + prompt("how many colors he/she wants to delete.");
+// colors.splice(del,delNo);
+// console.log(colors);
+
+//question 10
+// 10. Write a program to store student scores in an array &
+// sort the array in ascending order using Array’s sort
+// method.
+// var score = [320,320,480,120];
+// document.write(score.sort())
+
+//question 11
+// 11. Write a program to initialize an array with city names.
+// Copy 3 array elements from cities array to selectedCities
+// array.
+
+// var cities=["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+// var selectedCities=[cities.slice(2,4)];
+// document.write(selectedCities);
+
+
+//question12
+// 12. Write a program to create a single string from the
+// below mentioned array:
+// var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+// (Use array’s join method)
+// var sentence =  ["This ", "is"," my ", " cat"];
+
+// document.write(sentence.join(""));
+
+//question13
+// 13. Create a new array. Store values one by one in such a way
+// that you can access the values in the order in which they
+// were stored. (FIFO-First In First Out)
+// var devices = ["keyboard","mouse","printer","monitor"];
+// console.log (devices.shift()); 
+// console.log (devices.shift());
+// console.log (devices.shift());
+// console.log (devices.shift());
+// 14. Create a new array. Store values one by one in such a way
+// that you can access the values in reverse order. (Last In-
+// First Out)
+// var devices = ["keyboard","mouse","printer","monitor"];
+// console.log (devices.pop()); 
+// console.log (devices.pop());
+// console.log (devices.pop());
+// console.log (devices.pop());
+
+//question15
+// 15. Write a program to store phone manufacturers (Apple,
+//     Samsung, Motorola, Nokia, Sony & Haier) in an array.
+//     Display the following dropdown/select menu in your
+//     browser using document.write() method:
+
+// var manufacturer=["apple","samsung","motorola","nokia","sony","haier"];
+// document.write("<select>");
+// document.write("<option>"+manufacturer[0]+"</option>");
+// document.write("<option>"+manufacturer[1]+"</option>");
+// document.write("<option>"+manufacturer[2]+"</option>");
+// document.write("<option>"+manufacturer[3]+"</option>");
+// document.write("<option>"+manufacturer[4]+"</option>");
+// document.write("<option>"+manufacturer[5]+"</option>");
+// document.write("</select>");
