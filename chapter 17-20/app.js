@@ -79,10 +79,21 @@
 // array.
 // After searching, prompt the user whether the given item is
 // found in the list or not. Example:
-// var bakery=["cake","apple pie","cookie","chips","patties"];
-// var bakeryItem = prompt("Welcome to ABC bakery. What do u want to order?");
-// for (var i=bakeryItem;i=bakery;i++){
-//     console.log(i);
+// var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var bakeryItem = prompt("Welcome to ABC bakery. What do you want to order?");
+// var matchFound = false;
+
+// for (var i = 0; i < bakery.length; i++) {
+//     if (bakery[i] === bakeryItem) {
+//         matchFound = true;
+//         break;  // Exit the loop once a match is found
+//     }
+// }
+
+// if (matchFound) {
+//     alert("It's in the list");
+// } else {
+//     alert("It's not in the list");
 // }
 
 //question8
