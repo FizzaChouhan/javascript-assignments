@@ -57,7 +57,45 @@
   //var date = new Date("Dece")
 //   var laterDate = new Date("December 2020 31")
   
-//   document.write("Later Date: "+laterDate+"<br>")
+//   document.write("Later Date: "+laterDate+)
+
+// 9. Create a date object of the starting date of this Ramadan
+// and alert the number of days past since 1st Ramadan?
+// Note: 1st Ramadan was on June 18, 2015
+// var date = new Date("June 18, 2015")
+// var today = new Date()
+// var days = Math.round((today-date)/(1000*60*60*24))
+// document.write("Ramadan Starts: "+date+"<br>")
+// document.write("Current Date: "+today+"<br>")
+// document.write("Elapsed days since Ramadan: "+days+"<br>")
+
+// 10. Write a program that displays in your browser the
+// seconds that elapsed between the reference date and the
+// beginning of 2015.
+// var date = new Date("January 1, 2015")
+// var today = new Date()
+// var seconds = Math.round((today-date)*24*60*60)
+// document.write("Current Date: "+today+"<br>")
+
+// document.write("Current Date: "+today+"<br>")
+// document.write(" seconds since beginning of 2015: "+seconds)
+
+// 11. Create a Date object for the current date and time.
+// Extract the hours, reset the date object an hour ahead and
+// finally display the date object in your browser.
+var date = new Date()
+var hours = date.getHours()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
