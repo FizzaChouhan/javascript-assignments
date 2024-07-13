@@ -83,8 +83,76 @@
 // 11. Create a Date object for the current date and time.
 // Extract the hours, reset the date object an hour ahead and
 // finally display the date object in your browser.
-var date = new Date()
-var hours = date.getHours()
+// var date = new Date()
+// var hours = date.getHours()
+// document.write("current time and date"+date+"</br>")
+// var oneHour = date.setHours(hours+1)
+// var formattedDate = date.toLocaleString();
+
+// document.write(" Time an Hour Ahead: " + formattedDate);
+
+// 12. Write a program that creates a date object and show the
+// date in an alert box that is reset to 100 years back?
+// var currentDate = new Date()
+// alert(currentDate)
+// var currentYear = currentDate.getFullYear()
+// // var pastDate = currentDate.setFullYear(currentYear-100)
+// var pastDate=new Date()
+// pastDate.setFullYear(currentDate.getFullYear() - 100);
+// var string = pastDate.toLocaleString()
+// alert(string)
+
+// 13. Write a program to ask the user about his age. Calculate
+// and show his birth year in your browser.
+// var userAge = +prompt("What's your age?")
+// var date = new Date();
+// var currentYear=date.getFullYear();
+// var birthYear = currentYear-userAge;
+// document.write("Age:"+userAge+"</br>")
+// document.write("User BirthYear:"+birthYear)
+
+// 14. Write a program to generate your K-Electric bill in your
+// browser. All the amounts should be rounded off to 2
+// decimal places. Display the following fields:
+// a. Customer Name
+// b. Current Month
+// c. Number of units
+// d. Charges per unit
+// e. Net Amount Payable (within Due Date)
+// f. Late Payment Surcharge
+// g. Gross Amount Payable (after Due Date)
+// Where,
+
+// var customerName="Fizza";
+
+// var date = new Date();
+// var currentMonth= date.getMonth();
+
+// var numOfUnit=450;
+
+// var chargesPerUnit = 16;
+
+// var netAmountPayable = numOfUnit*chargesPerUnit;
+
+// var latePayment = 350;
+
+// var grossAmount = netAmountPayable+latePayment;
+// document.write("Customer Name:"+customerName+"</br>");
+// document.write("Current Month:"+currentMonth+"</br>");
+// document.write("Number Of Units:"+numOfUnit+"</br>");
+// document.write("Charges Per Unit:"+chargesPerUnit+"</br>");
+// document.write("Net Amount Payable:"+netAmountPayable+"</br>");
+// document.write("Late Payment Surcharge:"+latePayment+"</br>");
+// document.write("Gross Amount Payable(After Due date):"+grossAmount+"</br>");
+
+
+
+
+
+
+
+
+
 
 
 
