@@ -172,6 +172,31 @@
 // prompt the user to enter a valid password.
 // For character codes of a-z, A-Z & 0-9, refer to ASCII
 // table at the end of this document.
+//  var password = prompt("Enter a password");
+//  var passwordLength = password.length;
+//  var number=[1,2,3,4,5,6,7,8,9,0]
+//  var alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r"," s","t","u","v","w","x","y","z","A","B", "C","D","E","F","G","H","I","J","K"," L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+
+
+//  for (var i=0;i<6;i++){
+//     if (password[i][0]===number){
+//         alert("password should not start with a number")
+//     }
+//     else if (password[i]===alphabet){
+//         alert("password should contain alphabets and numbers")
+//         }
+//         else if (password[i]===number,alphabet){
+//             alert("Correct Password")
+//         } 
+//  }
+
+
+ 
+
+
+ 
+
+
 
 // 16. Write a program to convert the following string to an
 // array using string split method.
@@ -195,8 +220,12 @@
 // lazy dog”. Write a program to count number of
 // occurrences of word “the” in given string.
 
-var str="The quick brown fox jumps over the lazy dog";
-var the = "the";
-for(var i=0;i<str.length;i++){
-    if
-}
+//  var string="The quick brown fox jumps over the lazy dog";
+//  var count=0;
+//  for(var i=0;i<string.length;i++){
+//     if(string[i]=="t"||"T"&&string[i+1]=="h"&&string[i+2
+//         =="e"]){
+//             count++;
+//             }
+//             }
+//             document.write("The word the is repeated "+count+" times in the given string");
