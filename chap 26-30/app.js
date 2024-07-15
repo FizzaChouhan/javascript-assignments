@@ -60,6 +60,40 @@
 //  }
 //  document.write("Random coin value: " + coin + "<br>")
 
+// 6. Write a program that shows a random number between 1
+// and 100 in your browser.
+//  var random = Math.random()
+//  random = random * 100
+//  random = Math.floor(random)
+//  document.write("Random number between 1 and 100: " + random + "<br>")
+
+// 7. Write a program that asks the user about his weight. Parse
+// the user input and display his weight in your browser.
+// Possible user inputs can be:
+// a. 50
+// b. 50kgs
+// c. 50.2kgs
+// d. 50.2kilograms
+// var userNum = prompt("Write your weight")
+// var weight = userNum
+// document.write("Weight: " + weight + "<br>")
+
+// 8. Write a program that stores a random secret number from
+// 1 to 10 in a variable. Ask the user to input a number
+// between 1 and 10. If the user input equals the secret
+// number, congratulate the user.
+//  var secretNum = Math.random()
+//  secretNum = secretNum * 10
+//  secretNum = Math.floor(secretNum)
+//  var userNum = prompt("Write your number")
+//  if(userNum == secretNum){
+//     document.write("Congratulation! You guessed the secret number")
+//     }
+
+
+
+
+
 
 
 
